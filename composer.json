@@ -1,0 +1,21 @@
+{
+    "name": "opst-ezaki/php-b",
+    "authors": [
+        {
+            "name": "opst.ezaki",
+            "email": "ezaki.takato@opst.jp"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../a/"
+        }
+    ],
+    "require": {
+        "opst-ezaki/php-a": "dev-master"
+    },
+    "psr-4": {
+        "OpstEzaki\\PhpB\\": "./"
+    }
+}

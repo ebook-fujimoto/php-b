@@ -1,0 +1,42 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "331b09268d7a8a09221b376349137a6a",
+    "packages": [
+        {
+            "name": "opst-ezaki/php-a",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../a",
+                "reference": "ed89ed47c229d8643719c537f8a5df723440257e",
+                "shasum": null
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "OpstEzaki\\PhpA\\": "./"
+                }
+            },
+            "authors": [
+                {
+                    "name": "opst.ezaki",
+                    "email": "ezaki.takato@opst.jp"
+                }
+            ]
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "opst-ezaki/php-a": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
