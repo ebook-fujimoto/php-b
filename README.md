@@ -13,6 +13,22 @@
 
 **PHP B の内容のみでは実行が出来ません**
 
+1. [ECS](https://ap-northeast-1.console.aws.amazon.com/ecs/home?region=ap-northeast-1#/repositories) のページを開き、PHP A のリポジトリへのアクセス許可を追加します
+    - PHP A のリポジトリ名をクリック
+    - `アクセス許可` のタブを開く
+    - タブ内の `追加` をクリック
+    - 以下、次のように入力
+        - ステートメント識別子: `PHP A statement`
+        - 効果: `許可`
+        - プリンシパル
+            - 全員: `オフ`
+            - AWS アカウント番号または [service].amazonaws.com: `157144849617`
+            - 全ての IAM エンティティ: (選択無し)
+            - アクション: `プル専用アクション`
+    - 以上を入力し、上に戻り `すべて保存` をクリック
+    
+    ※ AWS アカウント番号の `157144849617` は、東京リージョンにおける CodeBuild 内部アカウントの番号
+
 1. [S3](https://s3.console.aws.amazon.com/s3/home?region=ap-northeast-1) のページを開き `バケットを作成する` をクリックする
     - 名前とリージョン
         - バケット名: `{yourname}-php-b`
