@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - apt-get update && apt-get install -y zip
+      - apk --no-cache add zip
   pre_build:
     commands:
       - cp -r /home/a ../
