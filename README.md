@@ -27,7 +27,8 @@
             - アクション: `プル専用アクション`
     - 以上を入力し、上に戻り `すべて保存` をクリック
     
-    ※ AWS アカウント番号の `157144849617` は、東京リージョンにおける CodeBuild 内部アカウントの番号
+    ※ AWS アカウント番号の `157144849617` は、内部の AWS アカウント ID であり、サポートされている AWS リージョンで Amazon ECR リポジトリにアクセスするために AWS CodeBuild が使用するアカウントです
+    詳しくは [http://docs.aws.amazon.com/ja_jp/codebuild/latest/userguide/sample-ecr.html](http://docs.aws.amazon.com/ja_jp/codebuild/latest/userguide/sample-ecr.html)
 
 1. [S3](https://s3.console.aws.amazon.com/s3/home?region=ap-northeast-1) のページを開き `バケットを作成する` をクリックする
     - 名前とリージョン
