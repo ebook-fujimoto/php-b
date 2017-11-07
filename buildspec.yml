@@ -10,9 +10,9 @@ phases:
   build:
     commands:
       - composer install
-      - zip -r archive.zip ./
+      - zip -r archive-${CODEBUILD_SOURCE_VERSION}.zip ./
 #  post_build:
 
 artifacts:
   files:
-    - archive.zip
+    - archive-${CODEBUILD_SOURCE_VERSION}.zip

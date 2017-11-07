@@ -58,8 +58,8 @@
             - カスタムイメージタイプ: `Amazon ECR`
             - Amazon ECR レポジトリ: `php-a`
             - Amazon ECR イメージ: `latest`
-            - ビルド仕様: `ソースコードのルートディレクトリの buildspeck.yml` を使用
-            - buildspeck 名: buildspec.yml (変更なし)
+            - ビルド仕様: `ソースコードのルートディレクトリの buildspec.yml` を使用
+            - buildspec 名: buildspec.yml (変更なし)
         - アーティファクト: 子のビルドプレジェクトからアーティファクトを配置する場所
             - タイプ: `Amazon S3`
             - 名前: (指定なし)
